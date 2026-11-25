@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Nur A Rabbi Sami — Computer Science and Engineering Student at Daffodil International University."
+  />
+  <title>Nur A Rabbi Sami | Portfolio</title>
+
+  <!-- Clean, modern typography (Inter & JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ================= NAVIGATION BAR ================= -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary Navigation">
+      <a href="#top" class="nav-brand" id="nav-brand">Sami.</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#interests" class="nav-link">Interests</a></li>
+        <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow" id="hero-eyebrow">
+            Daffodil International University • Bangladesh
+          </p>
+          <h1 class="hero-title" id="hero-title">Hi, I'm Sami.</h1>
+          <p class="hero-subtitle" id="hero-subtitle">
+            Computer Science &amp; Engineering Student
+          </p>
+          <p class="hero-intro" id="hero-intro">
+            Undergraduate student exploring programming, problem-solving, and the
+            fundamentals of computer science.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="hero-primary-btn">
+              Explore My Work
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-secondary-btn">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Photo Container -->
+        <div class="hero-media reveal">
+          <div class="profile-frame">
+            <img
+              src="assets/profile-placeholder.svg"
+              alt="Portrait placeholder for Nur A Rabbi Sami"
+              class="profile-image"
+              id="profile-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01. Introduction</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text card reveal" id="about-paragraphs">
+            <!-- Populated automatically from script.js -->
+          </div>
+
+          <aside class="about-details card reveal" aria-label="Quick Information">
+            <h3 class="card-heading">Quick Overview</h3>
+            <dl class="info-list" id="about-info-list">
+              <!-- Populated automatically from script.js -->
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECHNICAL SKILLS SECTION ================= -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02. Capabilities</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Core languages and concepts I am currently learning and practicing.
+          </p>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Populated automatically from script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION SECTION ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03. Academic Background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-list" id="education-list">
+          <!-- Populated automatically from script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04. Work &amp; Practice</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle" id="projects-notice">
+            Currently learning and working on new projects.
+          </p>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated automatically from script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= INTERESTS SECTION ================= -->
+    <section class="section" id="interests">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">05. Beyond Code</span>
+          <h2 class="section-title">Interests</h2>
+          <p class="section-subtitle">
+            Things that keep me curious, creative, and motivated.
+          </p>
+        </div>
+
+        <ul class="interests-grid" id="interests-grid">
+          <!-- Populated automatically from script.js -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">06. Connect</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle" id="contact-subtext">
+            Feel free to connect or reach out as I continue learning and growing in computer science.
+          </p>
+        </div>
+
+        <div class="contact-grid" id="contact-grid">
+          <!-- Populated automatically from script.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-text" id="footer-text">
+        &copy; 2026 Nur A Rabbi Sami. All rights reserved.
+      </p>
+      <a href="#top" class="footer-top-link">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Toast Notification (for copy email / placeholder link feedback) -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
